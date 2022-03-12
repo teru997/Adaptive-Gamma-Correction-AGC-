@@ -5,7 +5,7 @@ import cv2
 from Enhancement import AGC, HE, CLAHE
 
 model_path = './BRISQUE/brisque_model_live.yml'   # model data of BRISQUE
-range_path = './BRISQUE/brisque_range_live.yml'   # Rnage data of BRISQUE
+range_path = './BRISQUE/brisque_range_live.yml'   # Range data of BRISQUE
 
 def parse():
     parser = argparse.ArgumentParser()
